@@ -1,0 +1,53 @@
+name: FirstPlugin
+version: '${project.version}'
+main: p.jaro.firstplugin.FirstPlugin
+api-version: 1.19
+authors: [ utopiasz ]
+commands:
+  god:
+    description: god
+  utopiasz:
+    aliases: [utopi,ut]
+    description: opis pluginu
+    usage: /<command>
+  sword:
+    description: gives lightning sword
+    usage: /<command>
+  spawn:
+    description: spawn teleport
+    usage: /<command>
+  fly:
+    description: fly
+    usage: /<command>
+  sethome:
+    description: sethome
+  home:
+    description: home
+  gm:
+    description: quick gamemode change
+  plaster:
+    description: spokojna gra
+  directmessage:
+    aliases: [dm,pm,pv,priv,private,msg,whisper,priw]
+    usage: /<command> <player> <message>
+    description: private messages
+  discord:
+    aliases: [dc]
+    usage: /<command>
+    description: discord link
+  kick:
+    description: kick
+  ban:
+    permission: firstplugin.ban
+    description: ban
+  unban:
+    aliases: [ub]
+    description: unban
+  sklep:
+    description: sklep z efektami
+  checkop:
+    description: sprawdza czy dany gracz ma opa
+  op:
+    description: nadawanie uprawnien operatora
+  deop:
+    description: zabieranie uprawnien operatora
